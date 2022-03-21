@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Meu Formulário</title>
+</head>
+<body>
+    <span id="Rota">Traçando a Rota</span>
+    <form action=""> 
+        
+        <label>Seu Nome</label>
+        <input type="text" id="nome"/>
+
+        <label>Seu Sobrenome</label>
+        <input type="text" id="sobrenome"/>
+
+        <label for="nome">Quer ir pra onde?</label> 
+        <input type="text" id="título" required="required" título="título"/> 
+        
+        <label for="lugares">Qual categoria prefere:</label>
+        <select name="lugares" id="lugares">
+            <option value="praia">Praia</option>
+            <option value="montanhas">Montanhas</option>
+            <option value="campo">Campo</option>
+            <option value="cidade">Cidade</option>
+          </select>
+
+        <label>1 item para levar</label>
+        <input type="text" id="catergoria" name="categoria"/>
+
+
+
+          <textarea name="message" rows="10" cols="30">Queremos saber mais sobre este lugar dos sonhos.
+        </textarea>
+
+        
+    <button type="submit" id="submit">Enviar</button>
+    <button type="reset" id="reset">Limpar</button>
+
+    </form>
+
+    <script src="./main.js" type="module"></script>
+    
+
+</body>
+</html>
